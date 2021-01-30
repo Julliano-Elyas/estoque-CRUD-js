@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Estoque</title>
+    <script src="script.js"></script>
+</head>
+<body onload="listar()">
+    <div class="container">
+        <div>
+            <h1>Itens no Estoque: <span id="totalEstoque">0</span></h1>
+        </div>
+        <div id="divPesquisa">
+            <input type="text" id="pesquisa" placeholder="Pesquisar">
+            <button id="btnPesquisa" type="submit" onclick="buscarProduto('pesquisa')">Buscar</button>
+        </div>
+        <table >
+            
+            <thead>
+                <tr id="tituloTabela">
+                    <td>Produto</td>
+                    <td>Código</td>
+                    <td>Quantidade</td>
+                </tr>
+            </thead>
+            <tbody id="listaProdutos">
+
+            </tbody>
+        </table>
+
+        <button class="espacobtn" id="btnSalvar" type="submit"><a href="index.html">Cadastrar Produtos</a></button>
+    </div>
+</body>
+</html>

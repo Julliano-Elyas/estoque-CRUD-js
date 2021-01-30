@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Editar</title>
+    <script src="script.js"></script>
+</head>
+<body onload="pegarProduto()">
+    <div class="container">
+        <div>
+            <h1>Alterar Produto</h1>
+        </div>
+        <div class="formulario">
+            <form>
+                <input name="nome" id="txtNome" type="text" placeholder="Nome">
+                <input name="codigo" id="txtCodigo" type="text" placeholder="Código">
+                <input name="quantidade" id="txtQuantidade" type="number" placeholder="Quantidade">
+                <div class="botoes">
+                    <button id="btnSalvar" type="submit" onclick="alterarProduto()">Salvar</button>
+                    <button id="reset" type="reset">Limpar</button>
+                </div>
+                <div class="botoes">
+                    <button id="btnEstoque" type="submit"><a href="estoque.html">Estoque</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

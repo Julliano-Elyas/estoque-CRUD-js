@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastrar-Estoque</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Estoque de Produtos</h1>
+        </div>
+        <div class="formulario">
+            <form>
+                <input name="txtNome" id="txtNome" type="text" placeholder="Nome">
+                <input name="txtCodigo" id="txtCodigo" type="text" placeholder="Código">
+                <input name="txtQuantidade" id="txtQuantidade" type="number" placeholder="Quantidade">
+                <div class="botoes">
+                    <button id="btnSalvar" type="submit" onclick="validarProduto('txtNome', 'txtCodigo', 'txtQuantidade')">Salvar</button>
+                    <button id="reset" type="reset">Limpar</button>
+                </div>
+                <div class="botoes">
+                    <button id="btnEstoque" type="submit"><a href="estoque.html">Estoque</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

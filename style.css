@@ -1,0 +1,129 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    background-color: rgb(83, 153, 214);
+    border-radius: 5px;
+    padding-bottom: 80px;
+    
+}
+
+.container h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FFF;
+    letter-spacing: 5px;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario form input{
+    margin: 3px 5px;
+    padding: 4px 10px;
+    border: 0;
+    border-radius: 3px; 
+    width: 150px;  
+}
+
+.formulario .botoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button{
+    margin: 0 5px;
+    padding: 7px 15px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+#btnSalvar{
+    color: #FFF;
+    background-color: rgb(43, 138, 43);
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+#btnEstoque{
+    color: #FFF;
+    background-color: rgb(21, 64, 112);
+    border: 0;
+    border-radius: 4px;
+}
+
+#reset{
+    color: #FFF;
+    background-color: rgb(112, 106, 21);
+    border: 0;
+    border-radius: 4px;
+}
+
+table{
+    background-color: white;
+    width: 80%;
+}
+td{
+    border: 1px solid rgb(43, 43, 43);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.espacobtn{
+    margin-top: 20px;
+}
+
+table #tituloTabela{
+    background-color: rgb(21, 64, 112);
+    color: #FFF;
+}
+
+#pesquisa{
+    padding: 5px 10px;
+}
+#btnPesquisa{
+    padding: 3px 15px;
+    color: white;
+    background-color: rgb(180, 182, 55);
+    border-radius: 5px;
+}
+#divPesquisa{
+    margin-bottom: 10px;
+}
+
+table #alterar{
+    border-radius: 5px;
+	background-color: rgb(8, 83, 83);
+	color: white;
+	padding: 3px 15px;
+}
+
+table #excluir{
+    border-radius: 5px;
+	background-color: rgb(160, 40, 40);
+	color: white;
+    padding: 3px 15px;
+    
+}
+.botoes{
+    border: 0;
+    padding: 0;
+}
+button a{
+    text-decoration: none;
+    color: #FFF;
+}
